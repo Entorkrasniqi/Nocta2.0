@@ -5,8 +5,33 @@
 }
 
 .top-menu {
-    color: blanchedalmond;
+    color: rgb(219, 219, 219);
     background-color: black;
     font-size: 20px;
+    text-align: center;
+    font-family: "montserrat";
+    font-weight: bold;
 
 }
+
+#video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  
+  #video-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    z-index: 1;
+  }
