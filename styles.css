@@ -3,7 +3,11 @@
 .main-container {
     background-color: black;
 }
-
+h1 {
+font-weight: bold;
+font-family: "montserrat";
+font-size: 20px;
+}
 .top-menu {
     color: rgb(219, 219, 219);
     background-color: black;
