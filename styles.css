@@ -1,7 +1,7 @@
 .main-container {
     background-color: black;
 }
-h1 {
+h1, h2{
 font-weight: bold;
 font-family: "montserrat";
 font-size: 20px;
