@@ -1,5 +1,6 @@
 .main-container {
-    background-color: black;
+  background-color: black;
+  z-index: 1;
 }
 h1, h2{
 font-weight: bold;
@@ -7,48 +8,83 @@ font-family: "montserrat";
 font-size: 20px;
 }
 .top-menu {
-    color: rgb(219, 219, 219);
-    background-color: black;
-    font-size: 20px;
-    text-align: center;
-    font-family: "montserrat";
-    font-weight: bold;
+  color: rgb(219, 219, 219);
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: "montserrat";
+  font-weight: bold;
 
 }
 
 #video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  
-  #video-container h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 36px;
-    text-align: center;
-    z-index: 1;
-  }
+
+
+#video-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  z-index: 1;
+}
 
 h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
-    font-size: 36px;
-    text-align: center;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  z-index: 1;
 }
+
+
+/* Rest of your CSS styles */
+
+
 
 
 /*navbar*/
 
 /* CSS styles for the navbar */
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
