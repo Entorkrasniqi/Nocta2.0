@@ -2,7 +2,7 @@
   background-color: black;
   z-index: 1;
 }
-h1, h2{
+h1, h2, a{
 font-weight: bold;
 font-family: "montserrat";
 font-size: 20px;
@@ -59,7 +59,7 @@ h2{
 
 /* CSS styles for the navbar */
 nav {
-  background-color: #333;
+  background-color: #afafaf;
 }
 
 ul {
@@ -67,6 +67,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  top: 10px;
 }
 
 li {
@@ -79,10 +80,12 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover {
   background-color: #111;
+  
 }
 
 
