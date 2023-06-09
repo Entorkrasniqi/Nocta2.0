@@ -2,7 +2,7 @@
   background-color: black;
   z-index: 1;
 }
-h1, h2, a{
+h1, h2, a, p{
 font-weight: bold;
 font-family: "montserrat";
 font-size: 20px;
@@ -77,16 +77,32 @@ li {
 
 li a {
   display: block;
-  color: rgb(252, 255, 52);
+  color: rgb(245, 245, 245);
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 15px;
   text-decoration: none;
-  
+  font-size: 17px;
 }
 
 li a:hover {
   background-color: #111;
   
+}
+
+/*contact*/
+#Contact p {
+
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+  text-align: center;
+  margin-left: 44%;
+}
+a:hover{
+  color: rgb(192, 192, 192);
 }
 
 
